@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add Book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+        <header role="banner">
+            <h1>Add a Book</h1>
+        </header>
+        <section>
+          <form id="add-book">
+            <section class="form-section overview-section">
+              <label for="book-title">Book Title</label>
+              <input type="text" name="book-title" placeholder="All Creatures Great and Small" required>
+            </section>
+            <section class="form-section overview-section">
+              <label for="book-author">Book Author</label>
+              <input type="text" name="book-author" placeholder="James Herriot" required>
+            </section>
+            <section class="form-section overview-section">
+              <label for="book-isbn">ISBN</label>
+              <input type="text" name="book-isbn" placeholder="0553122509">
+            </section>
+            
+            <section class="form-section general-classification-section">
+              <h2>Select General Category</h2>
+  
+              <input type="radio" name="general-category" id="general-category-information" value="0" class="general-category-radio" checked>
+              <label for="general-category-information">
+                <span>Information</span>
+              </label>
+  
+              <input type="radio" name="general-category" id="general-category-philosophy-psychology" value="1" class="general-category-radio">
+              <label for="general-category-philosophy-psychology">
+                <span>Philosophy & Psychology</span>
+              </label>
+  
+              <input type="radio" name="general-category" id="general-category-religions" value="2" class="general-category-radio">
+              <label for="general-category-religions">
+                <span>Religions</span>
+              </label>
+  
+              <input type="radio" name="general-category" id="general-category-social-sciences" value="3" class="general-category-radio">
+              <label for="general-category-social-sciences">
+                <span>Social Sciences</span>
+              </label>
+  
+              <input type="radio" name="general-category" id="general-category-languages" value="4" class="general-category-radio">
+              <label for="general-category-languages">
+                <span>Languages</span>
+              </label>
+
+              <input type="radio" name="general-category" id="general-category-natural-sciences-mathematics" value="5" class="general-category-radio">
+              <label for="general-category-natural-sciences-mathematics">
+                <span>Natural Sciences & Mathematics</span>
+              </label>
+
+              <input type="radio" name="general-category" id="general-category-technology-applied-sciences" value="6" class="general-category-radio">
+              <label for="general-category-technology-applied-sciences">
+                <span>Technology (Applied Sciences)</span>
+              </label>
+
+              <input type="radio" name="general-category" id="general-category-arts-recreation" value="7" class="general-category-radio">
+              <label for="general-category-arts-recreation">
+                <span>Arts & Recreation</span>
+              </label>
+
+              <input type="radio" name="general-category" id="general-category-literature-rhetoric" value="8" class="general-category-radio">
+              <label for="general-category-literature-rhetoric">
+                <span>Literature & Rhetoric</span>
+              </label>
+
+              <input type="radio" name="general-category" id="general-category-technology-history-geography" value="9" class="general-category-radio">
+              <label for="general-category-technology-history-geography">
+                <span>History & Geography</span>
+              </label>
+
+            </section>
+            <section class="button-section">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </section>
+          </form>
+        </section>
+    </main>
+    <footer role="content-info">Footer</footer>
+</body>
+</html>
